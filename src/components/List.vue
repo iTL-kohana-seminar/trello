@@ -57,3 +57,15 @@ export default {
   }
 }
 </script>
+
+<style>
+.list {
+  background-color: #E8E5E1;
+}
+.list:nth-of-type(2n) {
+  background-color: #E93420;
+}
+.list:nth-of-type(3n) {
+  background-color: #FFFFFF;
+}
+</style>
