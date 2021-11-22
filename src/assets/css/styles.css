@@ -1,5 +1,5 @@
 html {
-    background: orange;
+    background-image: url("../img/keyvisual.png");
     font-family: 'Avenir', Helvetica, Arial, 'system-ui', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -7,22 +7,44 @@ html {
     width: 100%;
     height: 100%;
     overflow-x: scroll;
+
 }
 
 header {
-    background: orange;
+    background: #B0B3B4;
     height: 70px;
-    color: white;
+    color: #E93420;
     font-style: italic;
     font-size: 40px;
     text-align: left;
     padding: 20px;
+
 }
 
 main {
     padding: 0 10px;
     width: calc(100% - 40px);
     height: 100%;
+
+}
+
+
+
+
+.image1{
+  float: left;
+}
+
+.image2{
+  float: right;
+  position: relative;
+  top: 150px;
+}
+
+.image3{
+  float: right;
+  position: relative;
+  top: 150px;
 }
 
 .info-line {
